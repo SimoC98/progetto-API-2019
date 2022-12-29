@@ -1,4 +1,7 @@
 # progetto-API-2019
+
+## voto: 29/30
+
 Si vuole implementare un meccanismo di monitoraggio di relazioni tra entità (per esempio persone) che cambiano nel tempo. Si immagini, per esempio, un social network, in cui nuovi utenti possono registrarsi, e utenti esistenti possono cancellare il proprio account, diventare “amici” di altri utenti, rompere la relazione di amicizia, ecc. Le relazioni tra entità non sono necessariamente simmetriche. Per esempio, Alice può essere “amica” di Bruno, ma l’amicizia non è reciprocata (Bruno non è amico di Alice)
 ### scopo del progetto
 Implementazione in linguaggio C standard (con la sola libc) di un programma che legge da standard input una sequenza di comandi, ognuno corrispondente ad un cambiamento nelle entità o nelle relazioni tra entità e, quando richiesto, produce su standard output, per ogni tipo di relazione monitorata, l'identificativo dell'entità che è il ricevente del maggior numero di istanze di quella relazione, e il numero di relazioni che l'entità riceve
